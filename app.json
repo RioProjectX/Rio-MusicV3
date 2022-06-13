@@ -1,9 +1,9 @@
 {
-  "name": "ғᴀʟʟᴇɴ ᴍᴜsɪᴄ",
+  "name": "Rio Music",
   "logo": "https://telegra.ph/file/89cbc8b8760b6abff430f.jpg",
   "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
-  "repository": "https://github.com/AnonymousR1025/FallenMusic",
+  "repository": "https://github.com/RioProjectX/Rio-MusicV3",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -35,17 +35,17 @@
     "OWNER_ID": {
       "description": "User id of the person who will known as owner of the bot.",
       "required": true,
-      "value": "1356469075"
+      "value": "1"
     },
     "SUPPORT_GROUP": {
       "description": "Username of the group where users will go and disturb you, without @",
       "required": false,
-      "value": "DevilsHeavenMF"
+      "value": "riogroupsupport"
     },
     "SUDO_USERS": {
       "description": "User IDs of the users who will counted as admin everywhere (if more than one separate them by space).",
       "required": true,
-      "value": "1356469075"
+      "value": "1"
     },
     "START_IMG": {
       "description": "Telegraph link of the pic which you want to set as the start pic of your bot",
