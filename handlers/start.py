@@ -9,11 +9,11 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 @Client.on_message(command("start") & filters.private & ~filters.group & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAEENxZiNtPdibVkMsjLZrUG9NK4hotHQgAC2wEAAoM12VSdN9ujxVtnUyME")
+    await message.reply_sticker("")
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f"""**━━━━━━━━━━━━━━━━━━
-💔 ʜᴇʏ {message.from_user.mention()} !
+Hello {message.from_user.mention()} !
 
         ᴛʜɪs ɪs [{bn}](t.me/{bu}), ᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏᴄʜᴀᴛs...
 
@@ -37,14 +37,14 @@ async def start_(client: Client, message: Message):
                         "💔 Channel 🍒", url=f"https://t.me/rioprojects"
                     ),
                     InlineKeyboardButton(
-                        "🍒 Group 🍒", url=f"https://t.me/riogroupsupport"
+                        "🍒 Group 🍒", url=f"https://t.me/mcmusicsupport"
                     )
                 ],[
                     InlineKeyboardButton(
                         "🔎 ɪɴʟɪɴᴇ 🔎", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        "🤯 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ 🤯", url="https://github.com/RioProjectX/Rio-MusicV3"
+                        "🤯 Owner​ 🤯", url="https://t.me/riasyee"
                     )]
             ]
        ),
